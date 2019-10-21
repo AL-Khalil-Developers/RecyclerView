@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/bg"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/iconImageId"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/thumbnail" />
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:id="@+id/textViewHolderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/listTitleID"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:maxLines="1"
+            android:layout_marginLeft="10dp"
+            android:text="How to create Direct LoginSystem in Kodular?"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/listDesciptionID"
+            android:layout_marginTop="4dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/welcome_to_al_khalil_developer_youtube_channel_here_you_can_get_tutorials_about_android_app_development"
+            android:maxLines="2"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
